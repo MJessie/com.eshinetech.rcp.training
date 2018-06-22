@@ -1,0 +1,24 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Training
+Bundle-SymbolicName: com.eshinetech.rcp.training; singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: com.eshinetech.rcp.training.Activator
+Bundle-Vendor: ESHINETECH
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-ActivationPolicy: lazy
+Export-Package: com.eshinetech.rcp.training,
+ com.eshinetech.rcp.training.action,
+ com.eshinetech.rcp.training.builder,
+ com.eshinetech.training,
+ com.eshinetech.training.item,
+ com.eshinetech.training.jface.dialog,
+ com.eshinetech.training.jface.menu,
+ com.eshinetech.training.jface.tableviewer,
+ com.eshinetech.training.jface.treeviewer,
+ com.eshinetech.training.jface.treeviewer.bean,
+ com.eshinetech.training.jface.treeviewer.provider,
+ com.eshinetech.training.swt,
+ utils
