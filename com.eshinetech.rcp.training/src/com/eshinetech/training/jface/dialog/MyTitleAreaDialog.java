@@ -1,7 +1,7 @@
 package com.eshinetech.training.jface.dialog;
 
 /**
- * class  desc：
+ * class  desc锛�
  * @author WuChengRui  
  * @date 2018-6-20  
  */
@@ -49,13 +49,10 @@ public class MyTitleAreaDialog extends TitleAreaDialog {
         Composite container = new Composite(area, SWT.NONE);
         container.setLayoutData(new GridData(GridData.FILL_BOTH));
 
-        // TitleArea中的Title
         setTitle("My TitleAreaDialog");
 
-        // TitleArea中的Message
         setMessage("This is a simple TitleAreaDialog example.");
 
-        // TitleArea中的Image
         setTitleImage(ImageFoctory.getImgByRoot( "icons/alt_launcher.ico"));
         
         final Button openTrayButton = new Button(container, SWT.NONE);
