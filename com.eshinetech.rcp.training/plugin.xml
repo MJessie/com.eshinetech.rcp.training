@@ -19,5 +19,14 @@
             id="com.eshinetech.rcp.training.perspective">
       </perspective>
    </extension>
+   <extension
+         point="org.eclipse.ui.views">
+      <view
+            class="com.eshinetech.rcp.training.view.SelectionProviderTestView"
+            id="com.eshinetech.rcp.training.view.SelectionProviderTestView"
+            name="name"
+            restorable="true">
+      </view>
+   </extension>
 
 </plugin>
